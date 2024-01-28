@@ -1,4 +1,3 @@
-# PythonPractice
 print formatting
 it is the process of combining variables and strings toger to display the formatted output
 
@@ -16,5 +15,11 @@ input method
 f-method and format method in input
 string-group of characters in python indexing allows the user to grab paratial values from any data
 indexing starts from 0 to n-1 
-python also supports reverse indexing . it will start display from last character. for last character index is -1
+
+-Why python is required for DevOps even though we have shell scripting 
+1.python supports reverse indexing . it will start display from last character. for last character index is -1
 python has advance/adavantage features compare to shell scripting
+
+2.Python is more platform-independent than shell scripting. It is independent of OS.
+3.For writing more complex logic which we can't do it in shell scripting
+4.Python provides better error handling compared with shell scripting
