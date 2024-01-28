@@ -20,8 +20,10 @@ indexing starts from 0 to n-1
 
 -Why python is required for DevOps even though we have shell scripting 
 1.python supports reverse indexing . it will start display from last character. for last character index is -1
-python has advance/adavantage features compare to shell scripting
-
-2.Python is more platform-independent than shell scripting. It is independent of OS.
+  python has advance/adavantage features compare to shell scripting
+2.It is independent of OS. where as bash scripting works only on Linux OS
 3.For writing more complex logic which we can't do it in shell scripting
 4.Python provides better error handling compared with shell scripting
+5.number of lines of code will be reduced compared with shell scripting
+6.Easy to learn and understand
+
