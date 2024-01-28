@@ -7,6 +7,8 @@ i need to dispaly statement as : my emplyoee name is aa and employeid is 111
 name="aa"
 id=111
 print("my employee name is {} and employeid is {}".format(name,id))
+
+
 2)f-method
 print(f"my employee name is {name} employeid is {id}")
 
