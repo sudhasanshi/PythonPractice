@@ -22,3 +22,8 @@ value="hello"
 print(value.startswith("h"))
 #to join 
 print(value.join('good'))
+value="Name"
+print(value.startswith("Na"))
+print(value.endswith("e"))
+print(value.lower().startswith("Na"))
+print(value.lower().startswith("na"))
