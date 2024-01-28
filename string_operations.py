@@ -27,3 +27,10 @@ print(value.startswith("Na"))
 print(value.endswith("e"))
 print(value.lower().startswith("Na"))
 print(value.lower().startswith("na"))
+#it will split and stores in list format
+sentence="hello All good!"
+print(sentence.split()) #['hello', 'All', 'good!']
+#it will split first one 
+print(sentence.split(" ", 1)) #['hello', 'All good!']
+#reverse split
+print(sentence.rsplit(" ", 1))#['hello All', 'good!']
