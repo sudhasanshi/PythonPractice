@@ -1,9 +1,4 @@
-#length of string
-text="sudha"
-length=len(text)
-print(length)
-num1=2.5
-num2=5.2
+
 #addition of two numbers
 sum=num1 + num2
 print(f"the sum of {num1} and {num2} is {sum}")
