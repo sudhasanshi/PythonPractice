@@ -35,7 +35,7 @@ python interpreter and functions that interact with the interpreter.To
 use this module need to import sys module.
 syntax: import sys
 
- a) sys.argv : It is a list in python which contains the command line 
+ a) sys.argv :(argv-argument vector) It is a list in python which contains the command line 
    arguments passed to the script. The first element is the script name. 
    example: import sys
    print(sys.argv) - It will print the name and argument passed
