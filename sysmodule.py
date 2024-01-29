@@ -1,0 +1,10 @@
+import sys
+print(sys.path)
+print(sys.argv[0])
+print(sys.argv[1])
+#sys.exit(0)
+#sys.exit("intentionally terminating execution")
+print(sys.argv[2])
+print(sys.version)
+print(len(sys.argv))
+print(sys.modules)
