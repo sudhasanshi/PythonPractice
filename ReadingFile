@@ -1,0 +1,11 @@
+1)Method-1
+file=open("c:\\Users\\sudha\\python-files\\PythonPractice\\sudha.txt")
+content=file.read()
+print(content)
+file.close()
+
+2)Method-2
+with open("c:\\Users\\sudha\\python-files\\PythonPractice\\sudha.txt") as p:
+    content=p.read()
+    print(content)
+    file.close()
