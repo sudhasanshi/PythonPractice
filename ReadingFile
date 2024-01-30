@@ -8,4 +8,14 @@ file.close()
 with open("c:\\Users\\sudha\\python-files\\PythonPractice\\sudha.txt") as p:
     content=p.read()
     print(content)
-    file.close()
+    p.close()
+3) to read oneline from file
+with open("c:\\Users\\sudha\\python-files\\PythonPractice\\sudha.txt") as p:
+    content=p.readline()
+    print(content)
+    p.close()
+4) to read all lines one-by-one
+with open("c:\\Users\\sudha\\python-files\\PythonPractice\\sudha.txt") as p:
+    content=p.readlines()
+    print(content)
+    p.close()  
