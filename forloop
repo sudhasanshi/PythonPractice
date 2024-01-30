@@ -1,0 +1,31 @@
+looping statements:
+for loop: It is used whenever we need to execute statements repeatedly
+syntax: 
+		for val in variable:
+		      print(val)
+example:
+list:
+1.	      fruits = [“apple”, “cherry”, “orange”]
+		for fruit in fruits:
+		     print(fruit)
+2.	      fruits = [“apple”, “cherry”, “orange”]
+		for index, fruit in enumerate(fruits):
+		     print(f”Index: {index}, Fruits: {fruit})
+3.	      for num in range(1,5):
+     print(num)
+Dictionary:
+emp_data = {
+	“id”: 1111,
+	“name”: “aaaa”
+	“company name”: “sapiens”,
+	“domain”: [“developer”, “devops”, “tester”]
+}
+To get only keys elements
+for key in emp_data.keys():
+	print(key)
+to get values from dictionay
+for val in emp_data.values():
+	print(val)
+To get both key and value from dictionary
+for key, val in emp_data.items():
+	print(f“{key}:{val}”)
