@@ -1,0 +1,27 @@
+-Files :
+	We can create a file in 3 different modes.
+	1.Write
+	2.Read
+	3.Append
+
+Write : If the file exists then it will overwrite, otherwise it will create a new file and add the contents
+
+	Example:
+		with open("firstfile.txt", 'w') as fh:
+    			fh.write(f"Hello, Good Morning \ni am writing the second line \n")
+		
+
+Read : Here the file will be opened only for reading purpose. We cannot modify the file contents.
+
+Append : If the file exists it will add the contents at the end of the file, if the file does not exist then it will create a new file and add the contents
+	Example : 	
+			fruit_list=["Apple","Orange","Banana"]
+			with open("firstfile.txt", 'a') as fh:
+    				for fruit in fruit_list:
+						fh.write(f"{fruit} \n") #\n to move the filepointer to new line
+
+Assignment : Write a script to read the notice, license file and add the content of each file to the file notice_license.txt. The notice or license file may be started with notice or license
+Before appending the content to notice_license.txt file add the relative path --> This can also be said as the automation script. Add this to the automation scripts question
+
+To fetch notice and license file from project directory (notice.txt, license.txt, notice.md etc) and the add the contents of this file along with relative path to the single file.
+Purpose of writing this script ->  For internal usage
