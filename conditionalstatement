@@ -1,0 +1,94 @@
+Conditional Statements:
+1.	If statements:
+Syntax:	if condition:
+		     print()
+2.	If-else
+if condition:
+     print()
+else:
+    print()
+3.	If-elif
+if condition:
+     print()
+elif condition:
+     print()
+else:
+     print()
+Example: 
+1.	To check true or false: found = True
+if found:  
+      Statement
+else:
+      statement
+2.	Fruits = [“apple”, “banana”, ‘cherry”]
+if “apple” in fruits:
+        print(“found”)
+else:
+       print(“Not Found”)
+or
+if “apple” not in fruits:
+	print(“not Found”)
+3.	If not found:
+     Statement
+           Above will check whether found is false
+4.	To check whether list or dictionay is empty or not
+mylist = [10, 20, 23, 24]
+if mylist:
+	print(“List  contain values”)
+else:
+	print(“List empty”)
+5.	To compare use =, >, < , !=, >=, <=
+6.	To check key is there or not in dictionary
+emp_data = {
+	“id”: 1111,
+	“name”: “aaaa”
+	“company name”: “sapiens”,
+	“domain”: [“developer”, “devops”, “tester”]
+}
+if “name” in emp_data:
+	print(“Key found”)
+else:
+	print(“Key not found”)
+To check value in dictionary
+if “sapiens” in emp_data.values():
+	print(“Value Found”)
+else:
+	print(“Value not Found”)
+  To check speck key contain value
+	if emp_data[“name”] == “aaa”:
+		print(“Value found”)
+	else:
+		print(“Not Found”)
+
+Basic build-in methods:
+1.	lower(): It is used to convert string into lowercase
+var = “Hello.World”)
+var1 = var.lower()
+print(var1)
+2.	upper(): Used to convert string into uppercase
+var = “Hello.World”)
+print(var.upper())
+3.	startswith(): used to check whether string is starts with pattern
+var = “Hello.World”)
+if var.startswith(“He”):
+	print(“starts with pattern”)
+else:
+	print(“starts with different pattern”)
+4.	endswith(): used to check whether string ends with specific pattern or not
+5.	var = “Hello.World”)
+if var.endswith(“He”):
+	print(“ends with pattern”)
+else:
+	print(“sends with different pattern”)
+6.	split(): used to split the string based on delimiter
+var = “hello.wor.ld”
+val, val1, val2 = var.split(‘.’)
+above string is divided into 3 parts “hello”, “wor”, “ld”
+val, val1= var.split(‘.’, 1)
+above is splitted only one time since in function, 1 is passed. (Hello, wor.ld)
+val, val1 = var.rsplit(‘.’, 1)
+splitted from reverse order (Hello.wor, ld)
+7.	replace: Used to replace the one character by another character
+var = “hello.wor.ld”
+var1 – var.replace(‘.’, ’/’)
+print(var1) ------- Hello/wor/ld
