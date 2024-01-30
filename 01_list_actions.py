@@ -3,6 +3,7 @@
 userList=["sudha", "paul", "raju", "sham"] 
 print(userList)#['sudha', 'paul', 'raju', 'sham']
 
+print(type(userList))#<class 'list'>
 print(userList[0])#sudha
 print(userList[1])#paul
 
