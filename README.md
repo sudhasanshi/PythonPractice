@@ -67,3 +67,16 @@ syntax: import sys
  - os.path.basename() - It will return the base name of the file.
  - os.walk() - It is used to walk through all the directory and sub directoy and in each iteration it returns the current path, all the files and 
                directories.
+
+string
+a group of characters. 
+1)in pyhon indexing allows the user to grab partial values from any data indexing starts from 0 to n-1
+  python has advance/adantages features compare to shell scripting
+2) python also support reverse indexing. it will start display from last character. for last character index is -1
+
+List
+list is group of elements with different type or same type and it is created using a pair of [].
+using index, the elements of list can be accessed
+
+Dictionary 
+Is key-value pair, is is created pair of {} using key-value of dictionary can be accessed 
