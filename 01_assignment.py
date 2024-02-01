@@ -45,20 +45,21 @@ with open(filename, "a") as f:
 
 2)method
 import os
-pattren=["notice", "license"]
-filename="notice_license.txt"
-cur_dir=os.getcwd()
-for pat in pattren:
-    with open(filename, "a") as fh:
-        fh.write(f"\n{pat}\n")
-    for root, dir, files in os.walk(cur_dir):
+pattern=["notice", "license"]
+filename="NL.txt"
+cur_path=os.getcwd()
+for pat in pattern:
+    with open(filename, "a") as ft:
+        ft.write(f"{pat}\n")
+    for paths, dirs, files in os.walk(cur_path):
         for file in files:
             if file.lower().startswith(pat):
-                file_path=os.path.join(root, file)
-                with open(file_path, 'r') as ti:
-                    content = ti.read()
-                with open(filename, 'a') as f:
-                    f.write(f"{root}\n{content}")
-    with open(filename, 'a') as fh:
-        fh.write('*' * 30)
-        fh.write("\n")
+                file_path=os.path.join(paths, file)
+                with open(file_path, "r") as p:
+                 content=p.read()
+                with open(filename, "a") as ft:
+                 ft.write(f"{paths}\n{file}\n{content}\n") 
+              
+    with open(filename, "a") as ft:
+     ft.write("*" * 10)
+     ft.write("\n")
