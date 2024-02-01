@@ -1,0 +1,6 @@
+import re
+email_name="sham <sham.xyz@gmail.com>, xyz <abc.axy@gmail.com> alex <alex.gmai.com>"
+search_value=re.search("alex", email_name) # to search pattern if present it will show first occurence
+print(search_value) #<re.Match object; span=(51, 55), match='alex'>
+found_values=re.findall("alex", email_name) # it will find all occurencees of pattern and store inside list
+print(found_values) #['alex', 'alex']
