@@ -1,0 +1,12 @@
+import re, os
+pattern=["NOTICE", "LICENSE"]
+cur=os.getcwd()
+filename="NL.txt"
+for pat in pattern:
+    for paths, dirs, files in os.walk(cur):
+        for file in files:
+            if file.upper().startswith(pat):
+                with open(filename, "r") as p:
+                    content=p.read()
+                    value=re.search(file, content)
+                    print(value)
