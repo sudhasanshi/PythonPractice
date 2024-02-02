@@ -1,0 +1,7 @@
+String are immutable in nature in python
+
+this means that you cannot change the value of a string once it is created.
+ex if you have a string s = "Hello", you can not do s[0] = "M" to change it to "Mello". You can only do s = "Mello" to assign a new string to s.
+
+dictionaries, and sets, which are mutable. You can change the elements of these data types without creating a new object. For example, 
+if you have a list l = [1, 2, 3], you can do l[0] = 4 to change it to [4, 2, 3]
