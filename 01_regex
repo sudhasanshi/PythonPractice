@@ -1,0 +1,40 @@
+import re
+email_name="sham <sham.xyz@gmail.com>, xyz <abc.axy@gmail.com> alex <alex.gmai.com>"
+search_value=re.search("alex", email_name) # to search pattern if present it will show first occurence
+print(search_value) #<re.Match object; span=(51, 55), match='alex'>
+found_values=re.findall("alex", email_name) # it will find all occurencees of pattern and store inside list
+print(found_values) #['alex', 'alex']
+import re
+email_date="sudha <sudha.xyz@gmail.com>, alexm <alex.xyz.gmail.com> abc <abc.xyz.gmail.com>, aletn <ale.gmail.com> al01 <ale.gmail.com>"
+value=re.search("xyz", email_date)
+print(value)
+value=re.findall("xyz", email_date)
+print(value)
+value=re.search("ale[t, x]", email_date)
+print(value)
+value=re.search("Ale[t, z]", email_date, re.IGNORECASE)
+print(value)
+value=re.search("Al[a-z]", email_date, re.IGNORECASE)
+print(value)
+value=re.search("Al[a-z]+", email_date, re.IGNORECASE)
+print(value)
+value=re.findall("Al[a-z]+", email_date, re.IGNORECASE)
+print(value)
+value=re.search("Al[a-z]+", email_date)
+print(value)
+value=re.search("al[0-9]+", email_date)
+print(value)
+value=re.search("a[a-z]+[0-9]+", email_date)
+print(value)
+value=re.findall("al[A-Za-z]+", email_date)
+print(value)
+value=re.findall("al[A-Za-z0-9]+", email_date)
+print(value)
+value=re.search(r"al[A-Za-z]+", email_date)
+print(value)
+value=re.findall(r"[A-Za-z0-9_]+\.[A-Za-z0-9_]+@[A-Za-z0-9]+\.[A-Za-z0-9]+", email_date)
+print(value)
+result = re.findall(r"[A-Za-z0-9_]+@[A-Za-z0-9]+\.[A-Za-z0-9]+", email_date)
+print(result)
+result = re.findall(r"\w+\w+@\w+\.\w+", email_date)
+print(result)
