@@ -1,9 +1,7 @@
 import pandas as pd
 
-
 filename="sample.xlsx"
 output="sample.json"
-
 
 def excel_to_json(name, json_file):
     df =  pd.read_excel(name, sheet_name="Sheet1")
@@ -12,7 +10,4 @@ def excel_to_json(name, json_file):
     print("json file created successfully")
 
    
-
-
 excel_to_json(filename, output)
-
