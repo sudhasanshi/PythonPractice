@@ -1,0 +1,12 @@
+pip-it is package manager of python which is used to instal python packages or modules
+how to install pip?for python version 3
+apt install python3-pip 
+
+pip install package name
+
+write a script to convert excel file into json file. usually we are storing data related open source packages which contain fields such as package name,
+license, source url, target package name etc.usually we are using this data to build open source packages 
+
+pip install pandas
+pip install openpyxl
+.whl
