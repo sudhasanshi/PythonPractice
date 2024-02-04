@@ -1,0 +1,47 @@
+1) difference between append and extend python?
+   append method adds a single element to the end of a list
+   extend method adds multiple elements from list to the end of a list.
+   
+2) How to check string is empty or not?
+   var=""
+   if not var:
+    print("it's empty")
+   else:
+    print("not empty")   
+
+3) How to add/append one list to another list?
+   using extend function
+   list1=[1, 2, 3, 4]
+   list2=[5, 6, 7]
+   list1.extend(list2)
+   print(list1) list2 will get added into list1
+   
+4) where log files will be present?
+   usually - /var/logs
+
+5) How to append one dictonary to another dictonary?
+   append method is not there in dictonary instead of append we can use update function
+   dic1={"name": "sudha", "class":"A"}
+   dic2={"add1": "BLR", "add2":"BGK"}
+   dic1.update(dic2)
+   print(dic1)
+   
+6) How to print calendar month?
+   import calendar
+   year=1994
+   month=2
+   print(calendar.month(year, month) 
+
+7) To find how many occurrences a specific value present in the list
+   fruits=["apple", "banana", "orange", "apple", "orange"]
+   for fruit in set(fruits):
+     num=fruits.count(fruit)
+      print(f"{fruit} : {num}")
+	  
+8) what is pip?
+   package manager for python
+
+9) which and all the modules you have worked?
+    re,sys,os,pandas
+
+10)	
