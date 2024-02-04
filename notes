@@ -1,0 +1,4 @@
+1) difference between append and extend python?
+   append method adds a single element to the end of a list
+   extend method adds multiple elements from list to the end of a list.
+2)
