@@ -1,0 +1,116 @@
+{
+    "org.springframework:spring-core": {
+        "5.3.26": {
+            "Version": "5.3.26",
+            "UniquePackageName": "org.springframework:spring-core:5.3.26",
+            "MasterPackageName": "spring-core",
+            "ProgrammingLanguage": "java",
+            "SourceUrl": "https://github.com/spring-projects/spring-framework/archive/refs/tags/v5.3.26.zip",
+            "Level": "main",
+            "License": "Apache-2.0 license",
+            "BuildCmd": "./gradlew build -x test",
+            "Dependencies": [
+                "org.springframework:spring-jcl:5.3.26"
+            ],
+            "TargetPackageName": "spring-core-5.3.26.jar",
+            "SourceType": "zip",
+            "ForceBuild": true,
+            "DependencyBuild": true,
+            "FetchOnline": false,
+            "UnitTestCommand": "./gradlew test",
+            "BuildDirectory": "",
+            "UsePatch": false,
+            "Environment": {
+                "maven": "default",
+                "java": "8",
+                "gradle": "default",
+                "sbt": "default",
+                "ant": "default"
+            },
+            "PomUrl": "https://repo1.maven.org/maven2/org/springframework/spring-core/5.3.26/spring-core-5.3.26.pom"
+        },
+        "5.3.13": {
+            "Version": "5.3.13",
+            "UniquePackageName": "org.springframework:spring-core:5.3.13",
+            "MasterPackageName": "spring-core",
+            "ProgrammingLanguage": "java",
+            "SourceUrl": "https://github.com/spring-projects/spring-framework/archive/refs/tags/v5.3.13.zip",
+            "Level": "dep",
+            "License": "Apache-2.0 license",
+            "BuildCmd": "./gradlew build -x test",
+            "Dependencies": [
+                "org.springframework:spring-jcl:5.3.13"
+            ],
+            "TargetPackageName": "spring-core-5.3.13.jar",
+            "SourceType": "zip",
+            "ForceBuild": true,
+            "DependencyBuild": true,
+            "FetchOnline": false,
+            "UnitTestCommand": "./gradlew test",
+            "BuildDirectory": "",
+            "UsePatch": false,
+            "Environment": {
+                "maven": "default",
+                "java": "8",
+                "gradle": "default",
+                "sbt": "default",
+                "ant": "default"
+            },
+            "PomUrl": "https://repo1.maven.org/maven2/org/springframework/spring-core/5.3.13/spring-core-5.3.13.pom"
+        },
+        "5.3.20": {
+            "Version": "5.3.20",
+            "UniquePackageName": "org.springframework:spring-core:5.3.20",
+            "MasterPackageName": "spring-core",
+            "ProgrammingLanguage": "java",
+            "SourceUrl": "https://github.com/spring-projects/spring-framework/archive/refs/tags/v5.3.20.zip",
+            "Level": "dep",
+            "License": "Apache-2.0 license",
+            "BuildCmd": "./gradlew jar",
+            "Dependencies": [
+                "org.springframework:spring-jcl:5.3.20"
+            ],
+            "TargetPackageName": "spring-core-5.3.20.jar",
+            "SourceType": "zip",
+            "ForceBuild": true,
+            "DependencyBuild": true,
+            "FetchOnline": false,
+            "UnitTestCommand": "./gradlew test",
+            "BuildDirectory": "",
+            "UsePatch": false,
+            "Environment": {
+                "maven": "default",
+                "java": "8",
+                "gradle": "default",
+                "sbt": "default",
+                "ant": "default"
+            },
+            "PomUrl": "https://repo1.maven.org/maven2/org/springframework/spring-core/5.3.20/spring-core-5.3.20.pom"
+        },
+        "5.3.27": {
+            "Version": "5.3.27",
+            "UniquePackageName": "org.springframework:spring-core:5.3.27",
+            "MasterPackageName": "spring-core",
+            "ProgrammingLanguage": "java",
+            "SourceUrl": "https://github.com/spring-projects/spring-framework/archive/refs/tags/v5.3.27.zip",
+            "Level": "dep",
+            "License": "Apache-2.0 license",
+            "BuildCmd": "./gradlew build -x test",
+            "Dependencies": [
+                "org.springframework:spring-jcl:5.3.27"
+            ],
+            "TargetPackageName": "spring-core-5.3.27.jar",
+            "SourceType": "zip",
+            "ForceBuild": true,
+            "DependencyBuild": false,
+            "FetchOnline": false,
+            "UnitTestCommand": "./gradlew test",
+            "BuildDirectory": "",
+            "UsePatch": "False",
+            "PomUrl": "https://repo1.maven.org/maven2/org/springframework/spring-core/5.3.27/spring-core-5.3.27.pom",
+            "Environment": {
+                "java": "8"
+            }
+        }
+    }
+}
