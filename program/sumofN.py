@@ -11,3 +11,15 @@ def fact(n):
     
 sum=fact(n)
 print(sum)
+
+
+
+n = int(input("Provide number to find sum of numbers: "))
+sum = 0
+i = 1
+
+while i <= n:
+    sum += i
+    i += 1
+
+print(sum)
